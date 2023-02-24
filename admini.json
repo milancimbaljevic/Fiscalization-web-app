@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "62ceb412f6ec0130a1fbc227"
+  },
+  "ime": "Milan",
+  "prezime": "Cimbaljevic",
+  "korisnicko_ime": "milanadmin",
+  "lozinka": "Milan123!",
+  "tip_korisnika": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ceb420f6ec0130a1fbc229"
+  },
+  "ime": "Marko",
+  "prezime": "Cimbaljevic",
+  "korisnicko_ime": "markoadmin",
+  "lozinka": "Marko123!!",
+  "tip_korisnika": "admin",
+  "__v": 0
+}]

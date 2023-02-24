@@ -1,0 +1,268 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/preduzece">Podaci o preduzecu</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/narucioci">Narucioci</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/robe_i_usluge">Robe i usluge</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/raspored_artikala">Raspored artikala</a>
+                </li>
+                <li class="nav-item" *ngIf="preduzece.kategorija == 1">
+                    <a aria-current="page" class="nav-link" routerLink="/raspored_stolova">Raspored stolova</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" routerLink="/izdavanje_racuna">Izdavanje racuna</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/promjena_lozinke">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLink="/pregled-izvjestaja">Pregled izvjestaja</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <br>
+
+    <ul ngbNav #nav="ngbNav" class="nav nav-tabs">
+        <li [ngbNavItem]="1">
+            <a ngbNavLink>Unos stavki</a>
+            <ng-template ngbNavContent>
+
+                <br>
+
+                <div class="form-floating">
+                    <select name="magacin_objekat" class="form-select" [(ngModel)]="izabrani_magacin_objekat"
+                        (change)="promijeniMagacinObjekat()">
+                        <option *ngFor="let m of preduzece.magacini_objekti" [value]="m.naziv">{{m.naziv}}</option>
+                    </select>
+                    <label for="magacin_objekat">Izaberite magacin ili objekat</label>
+                </div>
+                <br>
+
+                <div class="form-floating">
+                    <select name="artikli" class="form-select" [(ngModel)]="izabrani_artikal_string">
+                        <option *ngFor="let a of trenutni_artikli" [value]="a.naziv">{{a.naziv}}</option>
+                    </select>
+                    <label for="artikli">Izaberite artikal</label>
+                </div>
+                <br>
+
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" name="kolicina" placeholder="Unesite kolicinu"
+                        [(ngModel)]="kolicina">
+                    <label for="kolicina">Unesite kolicinu</label>
+                </div>
+                <br>
+
+                <button class="btn btn-primary" *ngIf="racunService.izabrani_sto || preduzece.kategorija == 0"
+                    (click)="dodajStavku()">Dodaj
+                    stavku</button>
+                <br>
+                <div class="table-responsive"
+                    *ngIf="sto_selektovan && preduzece.kategorija == 1 && racunService.stavke_stolova[id_stola].length != 0">
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <th>#</th>
+                            <th>Naziv artikla</th>
+                            <th>Cijena</th>
+                            <th>Magacin ili objekat</th>
+                            <th>Kolicina</th>
+                            <th>Porez</th>
+                            <th>Brisi</th>
+                        </thead>
+
+                        <tr *ngFor="let st of racunService.stavke_stolova[id_stola] let i = index">
+                            <th>{{i+1}}</th>
+                            <td>{{st.naziv_artikla}}</td>
+                            <td>{{st.cijena}}</td>
+                            <td>{{st.magacin_ili_objekat}}</td>
+                            <td>{{st.kolicina}}</td>
+                            <td>{{st.porez}}%</td>
+                            <td><button class="btn btn-outline-primary" (click)="brisiStavku(i)">Brisi</button></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="table-responsive"
+                    *ngIf="preduzece.kategorija == 0 && racunService.glavne_stavke.length != 0">
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <th>#</th>
+                            <th>Naziv artikla</th>
+                            <th>Cijena</th>
+                            <th>Magacin ili objekat</th>
+                            <th>Kolicina</th>
+                            <th>Porez</th>
+                            <th>Brisi</th>
+                        </thead>
+
+                        <tr *ngFor="let st of racunService.glavne_stavke let i = index">
+                            <th>{{i+1}}</th>
+                            <td>{{st.naziv_artikla}}</td>
+                            <td>{{st.cijena}}</td>
+                            <td>{{st.magacin_ili_objekat}}</td>
+                            <td>{{st.kolicina}}</td>
+                            <td>{{st.porez}}%</td>
+                            <td><button class="btn btn-outline-primary" (click)="brisiStavku(i)">Brisi</button></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div *ngIf="!racunService.izabrani_sto && preduzece.kategorija == 1">
+                    <h3>Prvo odaberite sto</h3>
+                </div>
+
+            </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+            <a ngbNavLink>Zatvaranje racuna</a>
+            <ng-template ngbNavContent>
+
+
+                <div class="form-floating">
+                    <select name="nacin_placanja" id="" class="form-select" [(ngModel)]="nacin_placanja">
+                        <option value="gotovina">gotovina</option>
+                        <option value="cek">cek</option>
+                        <option value="kartica">kartica</option>
+                        <option value="virman">virman</option>
+                    </select>
+                    <label for="nacin_placanja">Nacin placanja</label>
+                </div>
+
+
+                <br>
+
+                <div *ngIf="nacin_placanja == 'gotovina'">
+                    <div class="form-floating">
+                        <input type="text" name="v" class="form-control" (keyup)="izracunajKusur()"
+                            [(ngModel)]="vrijednost_koju_je_kupac_dao"
+                            placeholder="Unesite vrijednost koju je kupac dao">
+                        <label for="v">Unesite vrijednost koju je kupac dao</label>
+                    </div>
+                    <br>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="kusur" placeholder="Kusur" [(ngModel)]="kusur"
+                            [value]="kusur" readonly />
+                        <label for="kusur">Kusur</label>
+                    </div>
+                    <br>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="blk" [(ngModel)]="broj_licne_karte_kupca"
+                            placeholder="Licna karta (opciono)">
+                        <label for="blk">Broj licne karte kupca</label>
+                    </div>
+                    <br>
+                </div>
+
+                <div *ngIf="nacin_placanja == 'cek'">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="ime_kupca" [(ngModel)]="ime_kupca"
+                            placeholder="Unesite ime kupca">
+                        <label for="ime_kupca">Unesite ime kupca</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" [(ngModel)]="prezime_kupca"
+                            placeholder="Unesite prezime kupca" name="prezime">
+                        <label for="prezime">Unesite prezime kupca</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" [(ngModel)]="broj_licne_karte_kupca"
+                            placeholder="Unesite broj licne karte kupca" name="blk">
+                        <label for="blk">Unesite broj licne karte kupca</label>
+                      </div>             
+                    <br>
+                </div>
+
+                <div *ngIf="nacin_placanja == 'kartica'">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" [(ngModel)]="broj_licne_karte_kupca"
+                            placeholder="Unesite broj licne karte kupca" name="blk">
+                        <label for="blk">Unesite broj licne karte kupca</label>
+                      </div>  
+                    <br>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" [(ngModel)]="broj_slip_racuna"
+                        placeholder="Unesite broj slip racuna" name="slip_racun">
+                        <label for="slip_racun">Unesite broj slip racuna</label>
+                      </div>  
+                    <br>
+                </div>
+
+                <div *ngIf="nacin_placanja == 'virman'">
+                    <div class="form-floating">
+                    <select name="narucioc" class="form-select" [(ngModel)]="narucioc_email">
+                        <option *ngFor="let n of preduzece.narucioci" [value]="n.email">{{n.naziv_preduzeca_porucioca}}
+                        </option>
+                    </select>
+                    <label for="narucioc">Izaberite narucioca</label>
+                </div>
+                    <br>
+                </div>
+
+
+                <div *ngIf="!racunService.izabrani_sto && preduzece.kategorija == 1">
+                    <h3>Prvo odaberite sto</h3>
+                </div>
+
+                <button class="btn btn-primary" (click)="zatvoriRacun()"
+                    *ngIf="racunService.izabrani_sto || preduzece.kategorija == 0">Zatvori racun</button>
+
+                <br>
+
+                <p style="color: green">{{poruka}}</p>
+
+            </ng-template>
+    </ul>
+
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+    <br>
+
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p *ngFor="let p of poruke_za_modal" style="color: red">{{p}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" (click)="zatvori()">
+                        Zatvori
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

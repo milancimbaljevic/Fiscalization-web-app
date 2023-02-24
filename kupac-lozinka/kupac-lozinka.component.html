@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/kupac">Preduzeca i artikli</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/moji_racuni">Moji racuni</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" routerLink="/kupac-lozinka">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<app-promjena-lozinke [tip_korisnika]="'kupac'" [lozinka_comp]="kupac.lozinka" [k_ime]="kupac.korisnicko_ime"></app-promjena-lozinke>

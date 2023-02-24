@@ -1,0 +1,178 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/kupac">Preduzeca i artikli</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/moji_racuni">Moji racuni</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/kupac-lozinka">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+
+<div class="container">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Korisnicko ime</th>
+                <th>Telefon</th>
+                <th>Broj licne karte</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{kupac.ime}}</td>
+                    <td>{{kupac.prezime}}</td>
+                    <td>{{kupac.korisnicko_ime}}</td>
+                    <td>{{kupac.telefon}}</td>
+                    <td>{{kupac.broj_licne_karte}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+
+    <div class="responsive">
+        <table class="table">
+            <thead>
+                <th>#</th>
+                <th>Naziv preduzeca</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Drzava</th>
+                <th>Grad</th>
+                <th>Artikli</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of sva_preduzeca let i = index">
+                    <th>{{i+1}}</th>
+                    <td>{{p.naziv}}</td>
+                    <td>{{p.email}}</td>
+                    <td>{{p.telefon}}</td>
+                    <td>{{p.drzava}}</td>
+                    <td>{{p.grad}}</td>
+                    <td><button class="btn btn-outline-primary"
+                            (click)="prikaziArtikle(p.korisnicko_ime)">Artikli</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':artikalModal}">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <input type="text" class="form-control" placeholder="Trazi po nazivu artikla ili proizvodjaca"
+                        name="pretraga" [(ngModel)]="pretraga" (keyup)="trazi()">
+
+                    <hr>
+
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <th>#</th>
+                                <th>Naziv</th>
+                                <th>Sifra</th>
+                                <th>Proizvodjac</th>
+                                <th>Tip</th>
+                                <th>Slika</th>
+                                <th>Stanja</th>
+                            </thead>
+
+                            <tr *ngFor="let art of artikli_za_prikaz let i = index">
+                                <th>{{i+1}}</th>
+                                <td>{{art.naziv}}</td>
+                                <td>{{art.sifra}}</td>
+                                <td>{{art.proizvodjac}}</td>
+                                <td *ngIf="art.tip == 0">Hrana</td>
+                                <td *ngIf="art.tip == 1">Pice</td>
+                                <td *ngIf="art.tip == 2">Sirovina</td>
+                                <td><img [src]="'http://localhost:4000/'+art.slika" alt="" width="50px" height="50px"
+                                        id="art_prew" /></td>
+                                <td><button class="btn btn-outline-primary" (click)="prikaziStanja(art)">Pregled
+                                        stanja</button></td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" (click)="zatvoriArtikal()">
+                        Zatvori
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':pregledStanjaModal}"
+        *ngIf="izabran_artikal_za_pregled">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <div class="table-responsive">
+                        <table class="table">
+
+                            <thead>
+                                <th>#</th>
+                                <th>Naziv magacina ili objekta</th>
+                                <th>Nabavna cijena</th>
+                                <th>Prodajna cijena</th>
+                                <th>Tekuce stanje</th>
+                                <th>Min zeljena kolicina</th>
+                                <th>Maks zeljena kolicina</th>
+                            </thead>
+
+                            <tr *ngFor="let stanje of izabran_artikal_za_pregled.stanja let i = index">
+                                <th>{{i+1}}</th>
+                                <td>{{stanje.naziv_magacina_objekta}}</td>
+                                <td>{{stanje.nabavna_cijena}}</td>
+                                <td>{{stanje.prodajna_cijena}}</td>
+                                <td>{{stanje.tekuce_stanje_lagera}}</td>
+                                <td>{{stanje.min_zeljena_kol}}</td>
+                                <td>{{stanje.maks_zeljena_kol}}</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" (click)="zatvoriPregledStanja()">
+                        Zatvori
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

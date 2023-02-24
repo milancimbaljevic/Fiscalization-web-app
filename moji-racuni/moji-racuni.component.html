@@ -1,0 +1,95 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/kupac">Preduzeca i artikli</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" routerLink="/moji_racuni">Moji racuni</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/kupac-lozinka">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+
+<div class="container">
+    <h3 class="text-center" *ngIf="moji_racuni.length == 0">Nemate racuna</h3>
+    <div class="responsive">
+        <table class="table" *ngIf="moji_racuni.length != 0">
+            <thead>
+                <th>#</th>
+                <th>Naziv preduzeca</th>
+                <th>Naziv objekta</th>
+                <th>Iznos RSD</th>
+                <th>Nacin placanja</th>
+                <th>Stavke</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let r of moji_racuni let i = index">
+                    <th>{{i+1}}</th>
+                    <td>{{r.naziv_preduzeca}}</td>
+                    <td>{{r.naziv_objekta}}</td>
+                    <td>{{r.iznos}}</td>
+                    <td>{{r.nacin_placanja}}</td>
+                    <td><button class="btn btn-outline-primary" (click)="izaberiRacun(r)">Stavke</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':pregledStavkiModal}" *ngIf="izabran_racun">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <div class="table-responsive">
+                        <table class="table">
+
+                            <thead>
+                                <th>#</th>
+                                <th>Naziv artikla</th>
+                                <th>Kolicina</th>
+                                <th>Cijena</th>
+                            </thead>
+
+                            <tr *ngFor="let stavka of izabran_racun.stavke let i = index">
+                                <th>{{i+1}}</th>
+                                <td>{{stavka.naziv_artikla}}</td>
+                                <td>{{stavka.kolicina}}</td>
+                                <td>{{stavka.cijena}}</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" (click)="zatvoriPregledStavki()">
+                        Zatvori
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

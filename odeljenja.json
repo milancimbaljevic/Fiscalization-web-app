@@ -1,0 +1,320 @@
+[{
+  "_id": {
+    "$oid": "62cec58df6ec0130a1fbc2e9"
+  },
+  "naziv_odeljenja": "Basta Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "naziv_preduzeca": "Stepin Vajat",
+  "__v": 0,
+  "raspored_stolova": [
+    {
+      "id_stola": 0,
+      "x": 611,
+      "y": 274,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 1,
+      "x": 440,
+      "y": 54,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 2,
+      "x": 618,
+      "y": 112,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 3,
+      "x": 228,
+      "y": 60,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 4,
+      "x": 462,
+      "y": 263,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 5,
+      "x": 49,
+      "y": 55,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 6,
+      "x": 17,
+      "y": 210,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 7,
+      "x": 278,
+      "y": 142,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62cec598f6ec0130a1fbc2eb"
+  },
+  "naziv_odeljenja": "Basta Centar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "naziv_preduzeca": "Stepin Vajat",
+  "__v": 0,
+  "raspored_stolova": [
+    {
+      "id_stola": 8,
+      "x": 215,
+      "y": 156,
+      "sirina": 80,
+      "visina": 80,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 9,
+      "x": 428,
+      "y": 115,
+      "sirina": 80,
+      "visina": 80,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62cec59ff6ec0130a1fbc2ed"
+  },
+  "naziv_odeljenja": "Basta Karaburma",
+  "korisnicko_ime_preduzeca": "stepa",
+  "naziv_preduzeca": "Stepin Vajat",
+  "raspored_stolova": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cee1f7f6ec0130a1fbc91b"
+  },
+  "naziv_odeljenja": "Restoran",
+  "korisnicko_ime_preduzeca": "belareka",
+  "naziv_preduzeca": "Bela Reka",
+  "raspored_stolova": [
+    {
+      "id_stola": 0,
+      "x": 578,
+      "y": 44,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 1,
+      "x": 421,
+      "y": 29,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 2,
+      "x": 152,
+      "y": 52,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 3,
+      "x": 635,
+      "y": 237,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 4,
+      "x": 482,
+      "y": 233,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 5,
+      "x": 210,
+      "y": 236,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cee209f6ec0130a1fbc91f"
+  },
+  "naziv_odeljenja": "Basta",
+  "korisnicko_ime_preduzeca": "belareka",
+  "naziv_preduzeca": "Bela Reka",
+  "raspored_stolova": [
+    {
+      "id_stola": 6,
+      "x": 643,
+      "y": 121,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 7,
+      "x": 462,
+      "y": 76,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 8,
+      "x": 275,
+      "y": 118,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 9,
+      "x": 603,
+      "y": 222,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 10,
+      "x": 326,
+      "y": 212,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    },
+    {
+      "id_stola": 11,
+      "x": 52,
+      "y": 170,
+      "sirina": 100,
+      "visina": 100,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "pravougaonik"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf4538f6cd6d8717746880"
+  },
+  "naziv_odeljenja": "Terasa",
+  "korisnicko_ime_preduzeca": "belareka",
+  "naziv_preduzeca": "Bela Reka",
+  "raspored_stolova": [
+    {
+      "id_stola": 12,
+      "x": 283,
+      "y": 115,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 13,
+      "x": 128,
+      "y": 235,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 14,
+      "x": 583,
+      "y": 255,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    },
+    {
+      "id_stola": 15,
+      "x": 515,
+      "y": 81,
+      "sirina": 50,
+      "visina": 50,
+      "zauzet": false,
+      "selektovan": false,
+      "oblik": "krug"
+    }
+  ],
+  "__v": 0
+}]

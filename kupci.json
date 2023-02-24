@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "62cefccf48a9d7ce1d4f4739"
+  },
+  "ime": "Milan",
+  "prezime": "Cimbaljevic",
+  "korisnicko_ime": "milankupac",
+  "lozinka": "Milan123!",
+  "telefon": "+321312312321",
+  "broj_licne_karte": 11111,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf46fcf6cd6d871774692e"
+  },
+  "ime": "Marko",
+  "prezime": "Cimbaljevic",
+  "korisnicko_ime": "markokupac",
+  "lozinka": "Marko123!",
+  "telefon": "+321412412",
+  "broj_licne_karte": 22222,
+  "__v": 0
+}]

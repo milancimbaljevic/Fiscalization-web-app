@@ -1,0 +1,2094 @@
+[{
+  "_id": {
+    "$oid": "62cebae1f6ec0130a1fbc23a"
+  },
+  "sifra": "punjena_pljeskavica",
+  "naziv": "Punjena pljeskavica",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 5,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "punjena_pljeskavica-1657715425648.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": true,
+  "kategorija": "Slano",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "260",
+      "tekuce_stanje_lagera": 121,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "260",
+      "tekuce_stanje_lagera": 58,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "260",
+      "tekuce_stanje_lagera": 64,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "260",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "260",
+      "tekuce_stanje_lagera": 250,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "500"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebb1ef6ec0130a1fbc23e"
+  },
+  "sifra": "gurmanska_pljeskavica",
+  "naziv": "Grumanska pljeskavica",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 5,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "gurmanska_pljeskavica-1657715486728.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "220",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "220",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "220",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "220",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "200",
+      "prodajna_cijena": "220",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebbb5f6ec0130a1fbc242"
+  },
+  "sifra": "rostiljska_kobasica",
+  "naziv": "Rostiljska kobasica",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 2,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "rostiljska_kobasica-1657715637111.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "180",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "180",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "180",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "180",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "180",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "500"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebc95f6ec0130a1fbc246"
+  },
+  "sifra": "punjeno_belo",
+  "naziv": "Punjeno belo",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 8,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "punjeno_belo-1657715861916.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": true,
+  "kategorija": "Slano",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "320",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "320",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "320",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "320",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "320",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebd3af6ec0130a1fbc24a"
+  },
+  "sifra": "pomfrit",
+  "naziv": "Pomfrit",
+  "jedinica_mere": "kutija",
+  "stopa_poreza": 3,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "pomfrit-1657716026675.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 210,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebda1f6ec0130a1fbc24e"
+  },
+  "sifra": "obicna_pljeskavica",
+  "naziv": "Obicna pljeskavica",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 2,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "obicna_pljeskavica-1657716129001.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 211,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "200",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebe49f6ec0130a1fbc252"
+  },
+  "sifra": "pileci_batak",
+  "naziv": "Pileci batak",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 4,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "pileci_batak-1657716297744.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "280",
+      "prodajna_cijena": "350",
+      "tekuce_stanje_lagera": 211,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "280",
+      "prodajna_cijena": "350",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "280",
+      "prodajna_cijena": "350",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "280",
+      "prodajna_cijena": "350",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "280",
+      "prodajna_cijena": "350",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebedaf6ec0130a1fbc256"
+  },
+  "sifra": "koka_kola",
+  "naziv": "CocaCola",
+  "jedinica_mere": "litar",
+  "stopa_poreza": 4,
+  "proizvodjac": "CocaCola",
+  "tip": 1,
+  "slika": "koka_kola-1657716441991.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": true,
+  "kategorija": "Pica",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 210,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cebf2ff6ec0130a1fbc25a"
+  },
+  "sifra": "fanta",
+  "naziv": "Fanta",
+  "jedinica_mere": "litar",
+  "stopa_poreza": 4,
+  "proizvodjac": "CocaCola",
+  "tip": 1,
+  "slika": "fanta-1657716527636.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 210,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 35,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "60",
+      "prodajna_cijena": "100",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cec060f6ec0130a1fbc262"
+  },
+  "sifra": "nikpivo",
+  "naziv": "Niksicko pivo",
+  "jedinica_mere": "litar",
+  "stopa_poreza": 2,
+  "proizvodjac": "NiksickoPivo",
+  "tip": 1,
+  "slika": "nikpivo-1657716832833.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 211,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "124",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 320,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cec0f0f6ec0130a1fbc266"
+  },
+  "sifra": "fuzeteasumsko",
+  "naziv": "Ledeni caj sumsko voce",
+  "jedinica_mere": "litar",
+  "stopa_poreza": 3,
+  "proizvodjac": "FuzeTea",
+  "tip": 1,
+  "slika": "fuzeteasumsko-1657716976122.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "50",
+      "prodajna_cijena": "80",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "400"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "50",
+      "prodajna_cijena": "80",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "124",
+      "maks_zeljena_kol": "312"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "50",
+      "prodajna_cijena": "80",
+      "tekuce_stanje_lagera": 320,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "435"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "50",
+      "prodajna_cijena": "80",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "432"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "50",
+      "prodajna_cijena": "80",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "454"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cec2fef6ec0130a1fbc26a"
+  },
+  "sifra": "slatke_palacinke",
+  "naziv": "Slatke palacinke",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 1,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "slatke_palacinke-1657717502852.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": true,
+  "kategorija": "Slatko",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "120",
+      "prodajna_cijena": "160",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "90",
+      "maks_zeljena_kol": "400"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "120",
+      "prodajna_cijena": "160",
+      "tekuce_stanje_lagera": 580,
+      "min_zeljena_kol": "124",
+      "maks_zeljena_kol": "312"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "120",
+      "prodajna_cijena": "160",
+      "tekuce_stanje_lagera": 320,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "435"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "120",
+      "prodajna_cijena": "160",
+      "tekuce_stanje_lagera": 32,
+      "min_zeljena_kol": "120",
+      "maks_zeljena_kol": "432"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "120",
+      "prodajna_cijena": "160",
+      "tekuce_stanje_lagera": 18,
+      "min_zeljena_kol": "80",
+      "maks_zeljena_kol": "454"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cec434f6ec0130a1fbc279"
+  },
+  "sifra": "ledena_kocka",
+  "naziv": "Ledena kocka",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 2,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "ledena_kocka-1657717812893.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 21,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "120",
+      "tekuce_stanje_lagera": 432,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cec502f6ec0130a1fbc27d"
+  },
+  "sifra": "torta",
+  "naziv": "Cokoladna torta",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 2,
+  "proizvodjac": "Stepin Vajat",
+  "tip": 0,
+  "slika": "torta-1657718018767.png",
+  "korisnicko_ime_preduzeca": "stepa",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Tosin Bunar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Karaburma",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Centar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 21,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Novi Beograd",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    },
+    {
+      "naziv_magacina_objekta": "Magacin Banovo Brdo",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "150",
+      "tekuce_stanje_lagera": 432,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "350"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedc79f6ec0130a1fbc8c1"
+  },
+  "sifra": "teleca_corba",
+  "naziv": "Teleca corba",
+  "jedinica_mere": "tanjir",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "teleca_corba-1657724025187.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "380",
+      "prodajna_cijena": "420",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "380",
+      "prodajna_cijena": "420",
+      "tekuce_stanje_lagera": 149,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedc9af6ec0130a1fbc8c5"
+  },
+  "sifra": "jagnjeca_corba",
+  "naziv": "Jagnjeca corba",
+  "jedinica_mere": "tanjir",
+  "stopa_poreza": 3,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "jagnjeca_corba-1657724058407.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "380",
+      "prodajna_cijena": "420",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "380",
+      "prodajna_cijena": "420",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedce3f6ec0130a1fbc8c9"
+  },
+  "sifra": "pohovana_piletina",
+  "naziv": "Pohovana piletina",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "pohovana_piletina-1657724131308.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "1000",
+      "prodajna_cijena": "1150",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "1000",
+      "prodajna_cijena": "1150",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedd11f6ec0130a1fbc8cd"
+  },
+  "sifra": "karadjordjeva_snicla",
+  "naziv": "Karadjordjeva snicla",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 3,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "karadjordjeva_snicla-1657724177293.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "1000",
+      "prodajna_cijena": "1230",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "1000",
+      "prodajna_cijena": "1230",
+      "tekuce_stanje_lagera": 150,
+      "min_zeljena_kol": "50",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedd46f6ec0130a1fbc8d1"
+  },
+  "sifra": "rizoto",
+  "naziv": "Rizoto sa piletinom i povrcem",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 5,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "rizoto-1657724230104.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": true,
+  "kategorija": "Slano",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "80",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedd70f6ec0130a1fbc8d5"
+  },
+  "sifra": "cevapi",
+  "naziv": "Cevapi",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 5,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "cevapi-1657724272194.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "840",
+      "tekuce_stanje_lagera": 192,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "840",
+      "tekuce_stanje_lagera": 343,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedd93f6ec0130a1fbc8d9"
+  },
+  "sifra": "pomfrit",
+  "naziv": "Pomfrit",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 8,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "pomfrit-1657724307477.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "300",
+      "tekuce_stanje_lagera": 192,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "300",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ceddbaf6ec0130a1fbc8dd"
+  },
+  "sifra": "jagnjetina",
+  "naziv": "Jagnjetina na raznju",
+  "jedinica_mere": "porcija",
+  "stopa_poreza": 5,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "jagnjetina-1657724346409.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "1800",
+      "prodajna_cijena": "2200",
+      "tekuce_stanje_lagera": 212,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "1800",
+      "prodajna_cijena": "2200",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cede02f6ec0130a1fbc8e1"
+  },
+  "sifra": "torta",
+  "naziv": "Cololadna torta",
+  "jedinica_mere": "parce",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "torta-1657724418748.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "400",
+      "prodajna_cijena": "500",
+      "tekuce_stanje_lagera": 192,
+      "min_zeljena_kol": "125",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "400",
+      "prodajna_cijena": "500",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cede31f6ec0130a1fbc8e5"
+  },
+  "sifra": "krempita",
+  "naziv": "Krempita",
+  "jedinica_mere": "parce",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "krempita-1657724465311.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "400",
+      "prodajna_cijena": "450",
+      "tekuce_stanje_lagera": 154,
+      "min_zeljena_kol": "432",
+      "maks_zeljena_kol": "300"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "400",
+      "prodajna_cijena": "450",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cede5df6ec0130a1fbc8e9"
+  },
+  "sifra": "bajadera",
+  "naziv": "Bajadera",
+  "jedinica_mere": "komad",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "bajadera-1657724509358.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 154,
+      "min_zeljena_kol": "432",
+      "maks_zeljena_kol": "800"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "8080"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cede94f6ec0130a1fbc8ed"
+  },
+  "sifra": "baklava",
+  "naziv": "Baklava",
+  "jedinica_mere": "parce",
+  "stopa_poreza": 4,
+  "proizvodjac": "Bela Reka",
+  "tip": 0,
+  "slika": "baklava-1657724564263.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": true,
+  "kategorija": "Slatko",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "380",
+      "tekuce_stanje_lagera": 154,
+      "min_zeljena_kol": "432",
+      "maks_zeljena_kol": "800"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "380",
+      "tekuce_stanje_lagera": 345,
+      "min_zeljena_kol": "85",
+      "maks_zeljena_kol": "800"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedeedf6ec0130a1fbc8f1"
+  },
+  "sifra": "loza",
+  "naziv": "Loza",
+  "jedinica_mere": "casica",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 1,
+  "slika": "loza-1657724653920.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": true,
+  "kategorija": "Rakija",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "300",
+      "tekuce_stanje_lagera": 1240,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "250",
+      "prodajna_cijena": "300",
+      "tekuce_stanje_lagera": 2350,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedf17f6ec0130a1fbc8f5"
+  },
+  "sifra": " kajsijevaca",
+  "naziv": " Kajsijevaca",
+  "jedinica_mere": "casica",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 1,
+  "slika": " kajsijevaca-1657724695488.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 1240,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 2350,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cedf34f6ec0130a1fbc8f9"
+  },
+  "sifra": " viljamovka",
+  "naziv": " Viljamovka",
+  "jedinica_mere": "casica",
+  "stopa_poreza": 2,
+  "proizvodjac": "Bela Reka",
+  "tip": 1,
+  "slika": " viljamovka-1657724724745.png",
+  "korisnicko_ime_preduzeca": "belareka",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Magacin Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 1240,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    },
+    {
+      "naziv_magacina_objekta": "Restoran Tosin Bunar",
+      "nabavna_cijena": "300",
+      "prodajna_cijena": "360",
+      "tekuce_stanje_lagera": 2350,
+      "min_zeljena_kol": "3000",
+      "maks_zeljena_kol": "5000"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef19948a9d7ce1d4f468d"
+  },
+  "sifra": "fanta",
+  "naziv": "Fanta",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "CocaCola",
+  "tip": -1,
+  "slika": "fanta-1657729433922.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "1000",
+      "prodajna_cijena": "1400",
+      "tekuce_stanje_lagera": 47,
+      "min_zeljena_kol": "35",
+      "maks_zeljena_kol": "150"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef1c448a9d7ce1d4f4691"
+  },
+  "sifra": "kokakola",
+  "naziv": "CocaCola",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "CocaCola",
+  "tip": -1,
+  "slika": "kokakola-1657729476986.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "1200",
+      "prodajna_cijena": "1600",
+      "tekuce_stanje_lagera": 28,
+      "min_zeljena_kol": "100",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef21648a9d7ce1d4f4696"
+  },
+  "sifra": "lavpivo",
+  "naziv": "Lav",
+  "jedinica_mere": "gajba",
+  "stopa_poreza": 0,
+  "proizvodjac": "Lav",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 21,
+      "min_zeljena_kol": "45",
+      "maks_zeljena_kol": "87"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef26d48a9d7ce1d4f469a"
+  },
+  "sifra": "kokta",
+  "naziv": "Cocta",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Cocta",
+  "tip": -1,
+  "slika": "kokta-1657729645322.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "100",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 21,
+      "min_zeljena_kol": "45",
+      "maks_zeljena_kol": "87"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef2c248a9d7ce1d4f469e"
+  },
+  "sifra": "niksickopivo",
+  "naziv": "Niksicko pivo",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Niksicko pivo",
+  "tip": -1,
+  "slika": "niksickopivo-1657729730784.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef2e548a9d7ce1d4f46a2"
+  },
+  "sifra": "bravojagoda",
+  "naziv": "Bravo od jagode",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Bravo",
+  "tip": -1,
+  "slika": "bravojagoda-1657729765083.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef34648a9d7ce1d4f46a6"
+  },
+  "sifra": "vodarosa",
+  "naziv": "Voda rosa",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Rosa",
+  "tip": -1,
+  "slika": "vodarosa-1657729862856.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 310,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef35a48a9d7ce1d4f46aa"
+  },
+  "sifra": "prolomvoda",
+  "naziv": "Prolom",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Prolom",
+  "tip": -1,
+  "slika": "prolomvoda-1657729882281.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef3ba48a9d7ce1d4f46ae"
+  },
+  "sifra": "fruvitasok",
+  "naziv": "Fruvita",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Fruvita",
+  "tip": -1,
+  "slika": "fruvitasok-1657729978200.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef3d748a9d7ce1d4f46b2"
+  },
+  "sifra": "nektarpivo",
+  "naziv": "Nektar pivo",
+  "jedinica_mere": "gajba",
+  "stopa_poreza": 0,
+  "proizvodjac": "Nektar Banja Luka",
+  "tip": -1,
+  "slika": "nektarpivo-1657730007008.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef40048a9d7ce1d4f46b6"
+  },
+  "sifra": "vodavoda",
+  "naziv": "VODAVODA",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "VODAVODA",
+  "tip": -1,
+  "slika": "vodavoda-1657730048331.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef43f48a9d7ce1d4f46ba"
+  },
+  "sifra": "vinoplantaze",
+  "naziv": "Bijelo vino",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Plantaze",
+  "tip": -1,
+  "slika": "vinoplantaze-1657730111313.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 312,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef45548a9d7ce1d4f46be"
+  },
+  "sifra": "guarana",
+  "naziv": "Guarana",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Guarana",
+  "tip": -1,
+  "slika": "guaran-1657730133160.png",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "700",
+      "prodajna_cijena": "800",
+      "tekuce_stanje_lagera": 310,
+      "min_zeljena_kol": "654",
+      "maks_zeljena_kol": "987"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef4a048a9d7ce1d4f46c3"
+  },
+  "sifra": "joisok",
+  "naziv": "Joi",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Joi",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef4d348a9d7ce1d4f46c7"
+  },
+  "sifra": "mgmivela",
+  "naziv": "Mg mivela",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Mg mivela",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef4e848a9d7ce1d4f46cb"
+  },
+  "sifra": "nextsok",
+  "naziv": "Next",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Next",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 319,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef50148a9d7ce1d4f46cf"
+  },
+  "sifra": "ultra",
+  "naziv": "Ultra",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Ultra",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef53748a9d7ce1d4f46d3"
+  },
+  "sifra": "akvaviva",
+  "naziv": "Aqua viva",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "AquaViva",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef54748a9d7ce1d4f46d7"
+  },
+  "sifra": "lifesok",
+  "naziv": "Life",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Life",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef56348a9d7ce1d4f46db"
+  },
+  "sifra": "grandkafa",
+  "naziv": "Grand kafa",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Grand",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef58448a9d7ce1d4f46df"
+  },
+  "sifra": "carlsberg",
+  "naziv": "Carlsberg pivo",
+  "jedinica_mere": "gajba",
+  "stopa_poreza": 0,
+  "proizvodjac": "Carlsberg",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef67348a9d7ce1d4f46e3"
+  },
+  "sifra": "ckafa",
+  "naziv": "C kafa",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Ckafa",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef69048a9d7ce1d4f46e7"
+  },
+  "sifra": "redbul",
+  "naziv": "RedBul",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "RedBul",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "800",
+      "prodajna_cijena": "1000",
+      "tekuce_stanje_lagera": 324,
+      "min_zeljena_kol": "434",
+      "maks_zeljena_kol": "689"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef71948a9d7ce1d4f46ed"
+  },
+  "sifra": "tubesok",
+  "naziv": "Tube",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Tube",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef73a48a9d7ce1d4f46f1"
+  },
+  "sifra": "doncafe",
+  "naziv": "DonCafe",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "DonCafe",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef76b48a9d7ce1d4f46f5"
+  },
+  "sifra": "staropramen",
+  "naziv": "Staropramen pivo",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Staropramen",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef79048a9d7ce1d4f46f9"
+  },
+  "sifra": "familysok",
+  "naziv": "FamilySok",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Nektar",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef7d748a9d7ce1d4f46fd"
+  },
+  "sifra": "heineken",
+  "naziv": "Heineken",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Heineken",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef7ff48a9d7ce1d4f4701"
+  },
+  "sifra": "amstelpivo",
+  "naziv": "Amstel",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Amstel",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef81748a9d7ce1d4f4705"
+  },
+  "sifra": "biramoreti",
+  "naziv": "BiraMoreti",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "BIRAMORETI",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef83848a9d7ce1d4f4709"
+  },
+  "sifra": "kozelpivo",
+  "naziv": "Kozel",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Kozel",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef85c48a9d7ce1d4f470d"
+  },
+  "sifra": "pilsnerpivo",
+  "naziv": "Pilsner",
+  "jedinica_mere": "paket",
+  "stopa_poreza": 0,
+  "proizvodjac": "Pilsner",
+  "tip": -1,
+  "slika": "default.jpg",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "u_kategoriji": false,
+  "kategorija": "",
+  "stanja": [
+    {
+      "naziv_magacina_objekta": "Prodavnica Tosin Bunar",
+      "nabavna_cijena": "900",
+      "prodajna_cijena": "1200",
+      "tekuce_stanje_lagera": 123,
+      "min_zeljena_kol": "150",
+      "maks_zeljena_kol": "300"
+    }
+  ],
+  "__v": 0
+}]

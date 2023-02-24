@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "62ceb911f6ec0130a1fbc22e"
+  },
+  "ime": "Marko",
+  "prezime": "Markovic",
+  "korisnicko_ime": "stepa",
+  "lozinka": "Stepa123!",
+  "telefon": "+12412421421421",
+  "email": "stepa@gmail.com",
+  "naziv": "Stepin Vajat",
+  "drzava": "Srbija",
+  "grad": "Beograd",
+  "postanski_broj": 11000,
+  "ulica_i_broj": "Tosin Bunar 12",
+  "PIB": 111111111,
+  "maticni_broj": 1111111111,
+  "logo": "stepa-1657714961341.png",
+  "sifra_delatnosti": [
+    "1234",
+    "5678"
+  ],
+  "ziro_racuni": [
+    {
+      "banka": "Komercijalna Banka",
+      "broj_racuna": "123-123456789012-12"
+    },
+    {
+      "banka": "Erste Banka",
+      "broj_racuna": "124-123456789012-12"
+    }
+  ],
+  "magacini_objekti": [
+    {
+      "id": 1,
+      "naziv": "Tosin Bunar"
+    },
+    {
+      "id": 2,
+      "naziv": "Karaburma"
+    },
+    {
+      "id": 3,
+      "naziv": "Centar"
+    },
+    {
+      "id": 4,
+      "naziv": "Magacin Novi Beograd"
+    },
+    {
+      "id": 5,
+      "naziv": "Magacin Banovo Brdo"
+    }
+  ],
+  "prvi_login": false,
+  "kase": [
+    {
+      "lokacija": "Tosin Bunar",
+      "tip": "tip1"
+    },
+    {
+      "lokacija": "Centar",
+      "tip": "tip2"
+    },
+    {
+      "lokacija": "Karaburma",
+      "tip": "tip1"
+    }
+  ],
+  "status": "aktivan",
+  "narucioci": [],
+  "artikli": [],
+  "cena_stanje": [],
+  "kategorije": [
+    "Slano",
+    "Slatko",
+    "Pica"
+  ],
+  "tip_korisnika": "preduzece",
+  "__v": 0,
+  "broj_fiskalnih_kasa": 3,
+  "broj_magacina": 5,
+  "kategorija": 1,
+  "u_pdv_sistemu": true
+},{
+  "_id": {
+    "$oid": "62ced5aaf6ec0130a1fbc8af"
+  },
+  "ime": "Petar",
+  "prezime": "Petrovic",
+  "korisnicko_ime": "belareka",
+  "lozinka": "Belareka123!",
+  "telefon": "+4234234234",
+  "email": "belareka@mail.com",
+  "naziv": "Bela Reka",
+  "drzava": "Srbija",
+  "grad": "Beograd",
+  "postanski_broj": 11000,
+  "ulica_i_broj": "Tosin Bunar 21",
+  "PIB": 222222222,
+  "maticni_broj": 1234123412,
+  "logo": "belareka-1657722282693.png",
+  "sifra_delatnosti": [
+    "5678",
+    "5435",
+    "1212"
+  ],
+  "ziro_racuni": [
+    {
+      "banka": "Erste banka",
+      "broj_racuna": "122-123456789012-15"
+    }
+  ],
+  "magacini_objekti": [
+    {
+      "id": 1,
+      "naziv": "Magacin Tosin Bunar"
+    },
+    {
+      "id": 2,
+      "naziv": "Restoran Tosin Bunar"
+    }
+  ],
+  "prvi_login": false,
+  "kase": [
+    {
+      "lokacija": "Tosin Bunar",
+      "tip": "tip1"
+    }
+  ],
+  "status": "aktivan",
+  "narucioci": [
+    {
+      "naziv": "Podrum pica",
+      "broj_dana_za_placanje": "5",
+      "procenat_rabata": "12",
+      "ime": "Jana",
+      "prezime": "Petrovic",
+      "telefon": "+23423423423",
+      "email": "podrumpica@gmail.com",
+      "naziv_preduzeca_porucioca": "Podrum pica",
+      "drzava": "Srbija",
+      "grad": "Beograd",
+      "postanski_broj": 11000,
+      "ulica_i_broj": "Tosin Bunar 8",
+      "maticni_broj": 1233211234,
+      "logo": "podrumpica-1657728731105.png",
+      "PIB": "333333333"
+    }
+  ],
+  "artikli": [],
+  "cena_stanje": [],
+  "kategorije": [
+    "Slano",
+    "Slatko",
+    "Rakija"
+  ],
+  "tip_korisnika": "preduzece",
+  "__v": 0,
+  "broj_fiskalnih_kasa": 1,
+  "broj_magacina": 2,
+  "kategorija": 1,
+  "u_pdv_sistemu": true
+},{
+  "_id": {
+    "$oid": "62ceeedbf6ec0130a1fbcb22"
+  },
+  "ime": "Jana",
+  "prezime": "Petrovic",
+  "korisnicko_ime": "podrumpica",
+  "lozinka": "Podrum123!",
+  "telefon": "+23423423423",
+  "email": "podrumpica@gmail.com",
+  "naziv": "Podrum pica",
+  "drzava": "Srbija",
+  "grad": "Beograd",
+  "postanski_broj": 11000,
+  "ulica_i_broj": "Tosin Bunar 8",
+  "PIB": 333333333,
+  "maticni_broj": 1233211234,
+  "logo": "podrumpica-1657728731105.png",
+  "sifra_delatnosti": [
+    "1234",
+    "5678",
+    "5435",
+    "1212"
+  ],
+  "ziro_racuni": [
+    {
+      "banka": "Erste banka",
+      "broj_racuna": "123-123456789012-18"
+    }
+  ],
+  "magacini_objekti": [
+    {
+      "id": 1,
+      "naziv": "Prodavnica Tosin Bunar"
+    }
+  ],
+  "prvi_login": false,
+  "kase": [
+    {
+      "lokacija": "Prodavnica Tosin Bunar",
+      "tip": "tip1"
+    }
+  ],
+  "status": "aktivan",
+  "narucioci": [],
+  "artikli": [],
+  "cena_stanje": [],
+  "kategorije": [],
+  "tip_korisnika": "preduzece",
+  "__v": 0,
+  "broj_fiskalnih_kasa": 1,
+  "broj_magacina": 1,
+  "kategorija": 0,
+  "u_pdv_sistemu": false
+}]

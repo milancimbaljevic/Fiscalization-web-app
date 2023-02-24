@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLink="/admin-zahtjevi">Zahtjevi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-pregled" aria-current="page" href="#">Pregled
+                        izvjestaja</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-preduzece" aria-current="page" href="#">Dodaj preduzece</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/admin-kupac">Dodaj kupca</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" routerLink="/admin-lozinka">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="odjava()" aria-current="page" href="#">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+
+<app-promjena-lozinke [tip_korisnika]="'admin'" [lozinka_comp]="admin.lozinka" [k_ime]="admin.korisnicko_ime"></app-promjena-lozinke>

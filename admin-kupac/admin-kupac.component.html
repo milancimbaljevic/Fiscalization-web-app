@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">
+      <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Fiskalizator
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/admin-zahtjevi">Zahtjevi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin-pregled" aria-current="page" href="#">Pregled
+            izvjestaja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin-preduzece" aria-current="page" href="#">Dodaj preduzece</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link active" routerLink="/admin-kupac">Dodaj kupca</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/admin-lozinka">Promjena lozinke</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="odjava()" aria-current="page" href="#">Odjava</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+<div class="container">
+  <div class="form-floating">
+    <input type="text" class="form-control" id="ime" placeholder="Ime" [(ngModel)]="ime">
+    <label for="ime">Ime</label>
+  </div> <br>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="prezime" placeholder="Prezime" [(ngModel)]="prezime">
+    <label for="ime">Prezime</label>
+  </div> <br>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="korisnicko_ime" placeholder="korisnicko_ime"
+      [(ngModel)]="korisnicko_ime">
+    <label for="korisnicko_ime">Korisnicko ime</label>
+  </div> <br>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="lozinka" placeholder="Lozinka" [(ngModel)]="lozinka">
+    <label for="lozinka">Lozinka</label>
+  </div> <br>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="telefon" placeholder="Telefon" [(ngModel)]="telefon">
+    <label for="telefon">Telefon</label>
+  </div> <br>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="broj_licne_karte" placeholder="Broj licne karte"
+      [(ngModel)]="broj_licne_karte">
+    <label for="broj_licne_karte">Broj licne karte</label>
+  </div> <br>
+  <button class="btn btn-primary" (click)="dodajKupca()">Dodaj kupca</button>
+</div>
+
+
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p *ngFor="let p of poruke_za_modal" style="color: red">{{p}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" (click)="zatvori()">
+          Zatvori
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyleSuccess}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p style="color: green">{{this.poruka}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" (click)="zatvori1()">
+          Zatvori
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

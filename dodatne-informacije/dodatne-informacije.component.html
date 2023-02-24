@@ -1,0 +1,125 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        
+    <a class="navbar-brand" routerLink="/">
+        <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Fiskalizator
+    </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+<h3 class="text-center">Popunite ostatak podataka</h3>
+
+<div class="container">
+
+
+    <div class="form-floating">
+        <select class="form-select" aria-label="Default select example" id="kategorija" [(ngModel)]="kategorija">
+            <option selected value="prodavnica">Prodavnica</option>
+            <option value="ugostitelj">Ugostitelj</option>
+        </select>
+        <label for="kategorija">Kategorija</label>
+    </div>
+    <hr>
+    Sifra delatnosti:
+    <select class="form-select" multiple aria-label="multiple select example" [(ngModel)]="sifre_delatnosti">
+        <option value="1234">1234</option>
+        <option value="5678">5678</option>
+        <option value="5435">5435</option>
+        <option value="1212">1212</option>
+    </select>
+    <hr>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" [(ngModel)]="u_sistemu_pdv">
+        <label class="form-check-label" for="flexCheckDefault">
+            U sistemu pdv
+        </label>
+    </div>
+
+    <hr>
+
+    
+    <div class="form-floating">
+        <input type="text" class="form-control" name="ime_banke" placeholder="Ime banke" [(ngModel)]="ime_banke"><br>
+        <label for="ime_banke">Ime banke</label>
+    </div>
+
+    
+    <div class="form-floating">
+        <input type="text" name="broj_ziro_racuna" class="form-control" placeholder="Broj ziro racuna" [(ngModel)]="ziro_racun">
+        <label for="broj_ziro_racuna">Broj ziro racuna</label>
+    </div>
+    <br>
+
+    <p *ngFor="let zr of ziro_racuni let i = index">Banka: {{zr.banka}} Broj racuna: {{zr.broj_racuna}} &nbsp;  <button class="btn btn-outline-primary" (click)="brisiRacun(i)">Brisi</button></p>
+    <button class="btn btn-primary" (click)="dodajZiroRacun()">Dodaj ziro racun</button>
+
+    <hr>
+
+    
+    <div class="form-floating">
+        <input type="text" name="magacin_ili_objekat" class="form-control" placeholder="Naziv magacina ili objekta" [(ngModel)]="naziv_magacina">
+        <label for="magacin_ili_objekat">Nazvi magacina ili objekta</label>
+    </div>
+    <br>
+    <p *ngFor="let m of magacini let i = index">Naziv: {{m.naziv}} &nbsp;  <button class="btn btn-outline-primary" (click)="brisiMagacin(i)">Brisi</button></p>
+    <button class="btn btn-primary" (click)="dodajMagacin()">Dodaj magacin ili objekat</button>
+
+    <hr>
+
+    
+    <div class="form-floating">
+        <input type="text" name="lokacija" class="form-control" placeholder="Lokacija objekta" [(ngModel)]="lokacija_objekta">
+        <label for="lokacija">Lokacija objekta</label>
+    </div>
+    <br>
+    
+    <div class="form-floating">
+        <select class="form-select" name="tip_kase" aria-label="Default select example" id="kategorija" [(ngModel)]="tip_kase">
+            <option selected value="tip1">Tip1</option>
+            <option value="tip2">Tip2</option>
+        </select>
+        <label for="tip_kase">Tip kase</label>
+    </div>
+    <br>
+    <p *ngFor="let k of kase">Lokacija: {{k.lokacija}} Tip: {{k.tip}}</p>
+    <button class="btn btn-primary" (click)="dodajKasu()">Dodaj kasu</button>
+
+    <hr>
+    <button class="btn btn-primary" (click)="unesiPodatke()">Unesi podatke</button>
+    <br><br>
+    <p style="color: red">{{msg}}</p>
+</div>
+
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  [ngStyle]="{'display':displayStyle}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p *ngFor="let p of poruke" style="color: red">{{p}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" 
+                (click)="zatvori()">
+          Zatvori
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

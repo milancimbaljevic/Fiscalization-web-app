@@ -1,0 +1,435 @@
+[{
+  "_id": {
+    "$oid": "62cec93cf6ec0130a1fbc884"
+  },
+  "stavke": [
+    {
+      "cijena": 520,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "2",
+      "porez": 5,
+      "naziv_artikla": "Punjena pljeskavica"
+    },
+    {
+      "cijena": 150,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 3,
+      "naziv_artikla": "Pomfrit"
+    },
+    {
+      "cijena": 100,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 4,
+      "naziv_artikla": "CocaCola"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 770,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "ukupan_porez": 34.5,
+  "time": {
+    "$numberLong": "1657719100769"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cee303f6ec0130a1fbcb1a"
+  },
+  "stavke": [
+    {
+      "cijena": 420,
+      "magacin_ili_objekat": "Restoran Tosin Bunar",
+      "kolicina": "1",
+      "porez": 2,
+      "naziv_artikla": "Teleca corba"
+    },
+    {
+      "cijena": 1680,
+      "magacin_ili_objekat": "Restoran Tosin Bunar",
+      "kolicina": "2",
+      "porez": 5,
+      "naziv_artikla": "Cevapi"
+    }
+  ],
+  "nacin_placanja": "cek",
+  "iznos": 2100,
+  "naziv_preduzeca": "Bela Reka",
+  "naziv_objekta": "Restoran Tosin Bunar",
+  "korisnicko_ime_preduzeca": "belareka",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "ime": "Milan",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "1111"
+  },
+  "ukupan_porez": 92.4,
+  "time": {
+    "$numberLong": "1657725699433"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cef9b248a9d7ce1d4f471a"
+  },
+  "stavke": [
+    {
+      "cijena": 260,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 5,
+      "naziv_artikla": "Punjena pljeskavica"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 260,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "ukupan_porez": 13,
+  "time": {
+    "$numberLong": "1657731506968"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cefc2948a9d7ce1d4f4723"
+  },
+  "stavke": [
+    {
+      "cijena": 1400,
+      "magacin_ili_objekat": "Prodavnica Tosin Bunar",
+      "kolicina": "1",
+      "porez": 0,
+      "naziv_artikla": "Fanta"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 1400,
+  "naziv_preduzeca": "Podrum pica",
+  "naziv_objekta": "Prodavnica Tosin Bunar",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "datum": "2022-7-13",
+  "ukupan_porez": 0,
+  "time": {
+    "$numberLong": "1657732137360"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cefd0648a9d7ce1d4f4740"
+  },
+  "stavke": [
+    {
+      "cijena": 260,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 5,
+      "naziv_artikla": "Punjena pljeskavica"
+    },
+    {
+      "cijena": 100,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 4,
+      "naziv_artikla": "Fanta"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 360,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "broj_licne_karte_kupca": "11111"
+  },
+  "ukupan_porez": 17,
+  "time": {
+    "$numberLong": "1657732358804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cefd3b48a9d7ce1d4f4755"
+  },
+  "stavke": [
+    {
+      "cijena": 100,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 4,
+      "naziv_artikla": "Fanta"
+    }
+  ],
+  "nacin_placanja": "cek",
+  "iznos": 100,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "ime": "Milan",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "11111"
+  },
+  "ukupan_porez": 4,
+  "time": {
+    "$numberLong": "1657732411390"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cefd5648a9d7ce1d4f4759"
+  },
+  "stavke": [
+    {
+      "cijena": 120,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 2,
+      "naziv_artikla": "Niksicko pivo"
+    }
+  ],
+  "nacin_placanja": "kartica",
+  "iznos": 120,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "ime": "Milan",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "11111"
+  },
+  "ukupan_porez": 2.4,
+  "time": {
+    "$numberLong": "1657732438879"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf3f1bfa073563d5c896b9"
+  },
+  "stavke": [
+    {
+      "cijena": 350,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 4,
+      "naziv_artikla": "Pileci batak"
+    },
+    {
+      "cijena": 150,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 3,
+      "naziv_artikla": "Pomfrit"
+    },
+    {
+      "cijena": 100,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 4,
+      "naziv_artikla": "CocaCola"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 600,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "broj_licne_karte_kupca": "11111"
+  },
+  "ukupan_porez": 22.5,
+  "time": {
+    "$numberLong": "1657749275355"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf3f77fa073563d5c89891"
+  },
+  "stavke": [
+    {
+      "cijena": 200,
+      "magacin_ili_objekat": "Tosin Bunar",
+      "kolicina": "1",
+      "porez": 2,
+      "naziv_artikla": "Obicna pljeskavica"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 200,
+  "naziv_preduzeca": "Stepin Vajat",
+  "naziv_objekta": "Tosin Bunar",
+  "korisnicko_ime_preduzeca": "stepa",
+  "datum": "2022-7-13",
+  "podaci_o_kupcu": {
+    "broj_licne_karte_kupca": "11111"
+  },
+  "ukupan_porez": 4,
+  "time": {
+    "$numberLong": "1657749367880"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf4583f6cd6d8717746917"
+  },
+  "stavke": [
+    {
+      "cijena": 16800,
+      "magacin_ili_objekat": "Magacin Tosin Bunar",
+      "kolicina": "20",
+      "porez": 5,
+      "naziv_artikla": "Cevapi"
+    },
+    {
+      "cijena": 10000,
+      "magacin_ili_objekat": "Magacin Tosin Bunar",
+      "kolicina": "20",
+      "porez": 2,
+      "naziv_artikla": "Cololadna torta"
+    },
+    {
+      "cijena": 6000,
+      "magacin_ili_objekat": "Magacin Tosin Bunar",
+      "kolicina": "20",
+      "porez": 8,
+      "naziv_artikla": "Pomfrit"
+    }
+  ],
+  "nacin_placanja": "virman",
+  "iznos": 32800,
+  "naziv_preduzeca": "Bela Reka",
+  "naziv_objekta": "Magacin Tosin Bunar",
+  "korisnicko_ime_preduzeca": "belareka",
+  "narucioc": {
+    "naziv": "Podrum pica",
+    "broj_dana_za_placanje": "5",
+    "procenat_rabata": "12",
+    "ime": "Jana",
+    "prezime": "Petrovic",
+    "telefon": "+23423423423",
+    "email": "podrumpica@gmail.com",
+    "naziv_preduzeca_porucioca": "Podrum pica",
+    "drzava": "Srbija",
+    "grad": "Beograd",
+    "postanski_broj": 11000,
+    "ulica_i_broj": "Tosin Bunar 8",
+    "maticni_broj": 1233211234,
+    "logo": "podrumpica-1657728731105.png",
+    "PIB": "333333333"
+  },
+  "datum": "2022-7-14",
+  "podaci_o_kupcu": {
+    "broj_licne_karte_kupca": ""
+  },
+  "ukupan_porez": 1520,
+  "time": {
+    "$numberLong": "1657750915412"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf4745f6cd6d871774693c"
+  },
+  "stavke": [
+    {
+      "cijena": 1600,
+      "magacin_ili_objekat": "Prodavnica Tosin Bunar",
+      "kolicina": "2",
+      "porez": 0,
+      "naziv_artikla": "Voda rosa"
+    },
+    {
+      "cijena": 2800,
+      "magacin_ili_objekat": "Prodavnica Tosin Bunar",
+      "kolicina": "2",
+      "porez": 0,
+      "naziv_artikla": "Fanta"
+    }
+  ],
+  "nacin_placanja": "cek",
+  "iznos": 4400,
+  "naziv_preduzeca": "Podrum pica",
+  "naziv_objekta": "Prodavnica Tosin Bunar",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "datum": "2022-7-14",
+  "podaci_o_kupcu": {
+    "ime": "Marko",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "22222"
+  },
+  "ukupan_porez": 0,
+  "time": {
+    "$numberLong": "1657751365074"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf4761f6cd6d8717746941"
+  },
+  "stavke": [
+    {
+      "cijena": 1600,
+      "magacin_ili_objekat": "Prodavnica Tosin Bunar",
+      "kolicina": "2",
+      "porez": 0,
+      "naziv_artikla": "Guarana"
+    }
+  ],
+  "nacin_placanja": "kartica",
+  "iznos": 1600,
+  "naziv_preduzeca": "Podrum pica",
+  "naziv_objekta": "Prodavnica Tosin Bunar",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "datum": "2022-7-14",
+  "podaci_o_kupcu": {
+    "ime": "Marko",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "22222"
+  },
+  "ukupan_porez": 0,
+  "time": {
+    "$numberLong": "1657751393458"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cf47a1f6cd6d8717746945"
+  },
+  "stavke": [
+    {
+      "cijena": 5000,
+      "magacin_ili_objekat": "Prodavnica Tosin Bunar",
+      "kolicina": "5",
+      "porez": 0,
+      "naziv_artikla": "Next"
+    }
+  ],
+  "nacin_placanja": "gotovina",
+  "iznos": 5000,
+  "naziv_preduzeca": "Podrum pica",
+  "naziv_objekta": "Prodavnica Tosin Bunar",
+  "korisnicko_ime_preduzeca": "podrumpica",
+  "datum": "2022-7-14",
+  "podaci_o_kupcu": {
+    "ime": "Marko",
+    "prezime": "Cimbaljevic",
+    "broj_licne_karte_kupca": "22222"
+  },
+  "ukupan_porez": 0,
+  "time": {
+    "$numberLong": "1657751457887"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,323 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Fiskalizator
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="/preduzece">Podaci o preduzecu</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" routerLink="/narucioci">Narucioci</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/robe_i_usluge">Robe i usluge</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/raspored_artikala">Raspored artikala</a>
+                </li>
+                <li class="nav-item" *ngIf="preduzece.kategorija == 1">
+                    <a aria-current="page" class="nav-link" routerLink="/raspored_stolova">Raspored stolova</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/izdavanje_racuna">Izdavanje racuna</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" routerLink="/promjena_lozinke">Promjena lozinke</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" routerLink="/pregled-izvjestaja">Pregled izvjestaja</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+
+<div class="container">
+    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav nav-tabs">
+        <li [ngbNavItem]="1">
+            <a ngbNavLink>Narucioci</a>
+            <ng-template ngbNavContent>
+
+                <table>
+                    <tr>
+                        <td><img [src]="logo_link"></td>
+                        <td>
+                            <h3>{{preduzece.naziv}}</h3>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+
+                <h3 class="text-center">Nemata narucioca</h3>
+
+                <table class="table" *ngIf="preduzece.narucioci.length != 0">
+                    <thead>
+                        <th>#</th>
+                        <td>Naziv</td>
+                        <td>Broj dana za placanje</td>
+                        <td>Procenat rabata</td>
+                        <td>Vise informacija</td>
+                    </thead>
+                    <tr *ngFor="let n of preduzece.narucioci let i = index">
+                        <th>{{i+1}}</th>
+                        <td>{{n.naziv}}</td>
+                        <td>{{n.broj_dana_za_placanje}}</td>
+                        <td>{{n.procenat_rabata}}%</td>
+                        <td><button class="btn btn-outline-primary" (click)="viseInformacija(n)">Vise
+                                informacija</button></td>
+                    </tr>
+                </table>
+
+
+                <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':vise_informacija_modal}" *ngIf="narucioc_vise_informacija">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                
+                            
+
+                            <table>
+                                <tr>
+                                    <td><img [src]="'http://localhost:4000/'+narucioc_vise_informacija.logo"></td>
+                                    <td>
+                                        <h3>{{narucioc_vise_informacija.naziv}}</h3>
+                                    </td>
+                                </tr>
+                            </table>
+            
+                            <br>
+  
+                                        Ime: {{narucioc_vise_informacija.ime}} <br>
+                                        Prezime:  {{narucioc_vise_informacija.prezime}} <br>  
+                                        Telefon: {{narucioc_vise_informacija.telefon}} <br>
+                                        Email: {{narucioc_vise_informacija.email}} <br>
+                                        Naziv: {{narucioc_vise_informacija.naziv}} <br>
+                                        Drzava: {{narucioc_vise_informacija.drzava}} <br>
+                                        Grad: {{narucioc_vise_informacija.grad}} <br>
+                                        PIB: {{narucioc_vise_informacija.PIB}}
+                            
+                            
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-dark" (click)="zatvoriViseInformacija()">
+                                    Zatvori
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+            <a ngbNavLink>Unos narucioca</a>
+            <ng-template ngbNavContent>
+
+                <table>
+                    <tr>
+                        <td><img [src]="logo_link"></td>
+                        <td>
+                            <h3>{{preduzece.naziv}}</h3>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <div class="container">
+                    <select [(ngModel)]="tip_unosa" class="form-select">
+                        <option value="pib">Unesi preko PIB-a</option>
+                        <option value="rucno">Unesi rucno</option>
+                    </select>
+                </div>
+
+                <br>
+                <div class="container" *ngIf="tip_unosa == 'pib' ">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="pib" placeholder="Unesite PIB" [(ngModel)]="pib_za_trazenje" />
+                        <label for="pib">PIB</label>
+                      </div>
+                    <br>
+                    <button class="btn btn-primary" (click)="trazi()">Trazi</button>
+                    <br><br>
+
+                    <table class="table" *ngIf="preduzece_unos">
+                        <thead>
+                            <th>Naziv</th>
+                            <th>Drzava</th>
+                            <th>Grad</th>
+                            <th>Broj dana za placanje</th>
+                            <th>Procenat rabata</th>
+                            <th>Dodaj</th>
+                        </thead>
+                        <tr>
+                            <td>{{preduzece_unos.naziv}}</td>
+                            <td>{{preduzece_unos.drzava}}</td>
+                            <td>{{preduzece_unos.grad}}</td>
+                            <td><input class="form-control" type="text" [(ngModel)]="broj_dana_z_p"
+                                    placeholder="Broj dana za placanje"></td>
+                            <td><input class="form-control" type="text" [(ngModel)]="procenat_rabata"
+                                    placeholder="Procenat rabata"></td>
+                            <td><button class="btn btn-outline-primary" (click)="dodajUNarucioce()">Dodaj</button></td>
+                        </tr>
+                    </table>
+
+                    <p style="color: red">{{poruka}}</p>
+                    <p style="color: green">{{poruka_za_uspjeh}}</p>
+                </div>
+
+
+                <div class="container" *ngIf="tip_unosa == 'rucno' ">
+
+
+                    <form>
+                        <div class="form-group">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Ime" name="ime" [(ngModel)]="ime">
+                                <label for="ime">Ime</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Prezime" name="prezime"
+                                    [(ngModel)]="prezime">
+                                <label for="prezime">Prezime</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Kontakt telefon" name="telefon"
+                                    [(ngModel)]="telefon">
+                                <label for="telefon">Telefon</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Email" name="email"
+                                    [(ngModel)]="email">
+                                <label for="email">Email</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Naziv preduzeca" name="naziv_preduzeca"
+                                    [(ngModel)]="naziv_preduzeca">
+                                <label for="naziv_preduzeca">Naziv preduzeca</label>
+                              </div>
+                            <br>
+
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Drzava" name="drzava"
+                                    [(ngModel)]="drzava">
+                                <label for="drzava">Drzava</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Grad" name="grad" [(ngModel)]="grad">
+                                <label for="grad">Grad</label>
+                              </div>
+                            <br>
+
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Postanski broj" name="postanski_broj"
+                                    [(ngModel)]="postanski_broj">
+                                <label for="postanski_broj">Postanski broj</label>
+                              </div>
+                            <br>
+
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Ulica i broj" name="ulica_i_broj"
+                                    [(ngModel)]="ulica_i_broj">
+                                <label for="ulica_i_broj">Ulica i broj</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="PIB" name="pib" [(ngModel)]="pib">
+                                <label for="pib">PIB</label>
+                              </div>
+                            <br>
+
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Maticni broj preduzeca"
+                                    name="maticni_broj" [(ngModel)]="maticni_broj">
+                                <label for="maticni_broj">Maticni broj preduzeca</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Broj dana za placanje"
+                                    name="broj_dana_za_placanje" [(ngModel)]="broj_dana_z_p">
+                                <label for="broj_dana_za_placanje">Broj dana za placanje</label>
+                              </div>
+                            <br>
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder="Procenat rabata" name="procenat_rabata"
+                                    [(ngModel)]="procenat_rabata">
+                                <label for="procenat_rabata">Procenat rabata</label>
+                              </div>
+                            <br>
+
+                            <label for="logo">Izaberite logo &nbsp;</label>
+                            <input type="file" class="form-control-file" id="logo" (change)="onChange($event)">
+                            <br>
+
+                            <img [src]="path" id="logo_prew">
+                            <br>
+
+                            <p style="color: red">{{poruka}}</p>
+                            <p style="color: green">{{poruka_za_uspjeh}}</p>
+
+                            <button class="btn btn-primary" (click)="dodajUNarucioce()">Dodaj</button>
+                            <br>
+                        </div>
+                    </form>
+
+
+                    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p *ngFor="let p of poruke_za_modal" style="color: red">{{p}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" (click)="zatvori()">
+                                        Zatvori
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </ng-template>
+        </li>
+
+    </ul>
+
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+</div>

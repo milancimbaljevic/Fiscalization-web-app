@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">
+      <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Fiskalizator
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/preduzece">Podaci o preduzecu</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/narucioci">Narucioci</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/robe_i_usluge">Robe i usluge</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/raspored_artikala">Raspored artikala</a>
+        </li>
+        <li class="nav-item" *ngIf="preduzece.kategorija == 1">
+          <a aria-current="page" class="nav-link" routerLink="/raspored_stolova">Raspored stolova</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/izdavanje_racuna">Izdavanje racuna</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" class="nav-link" routerLink="/promjena_lozinke">Promjena lozinke</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" routerLink="/pregled-izvjestaja">Pregled izvjestaja</a>
+        </li>
+        <li class="nav-item">
+          <a aria-current="page" href="#" class="nav-link" (click)="odjava()">Odjava</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<div class="container">
+  <div class="d-flex justify-content-center">
+
+    <div class="table-responsive">
+      <table>
+        <tr>
+          <td><img [src]="logo_link"></td>
+          <td>
+            <h3>{{preduzece.naziv}}</h3>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    Izaberite datum:
+  </div>
+  <br>
+  <div class="d-flex justify-content-center">
+    <input type="date" [(ngModel)]="datum" (change)="datumIzabran()">
+  </div>
+  <br><br>
+  <div class="d-flex justify-content-center">
+    <h4 *ngIf="res">Ukupan iznos: {{res.ukupan_iznos}} RSD</h4>
+  </div>
+  <div class="d-flex justify-content-center">
+    <h4 *ngIf="res && preduzece.u_pdv_sistemu">Porez: {{res.porez}} RSD</h4>
+  </div>
+
+<br>
+
+  <div class="table-responsive" *ngIf="svi_racuni.length != 0">
+    <table class="table">
+      <thead>
+        <th>#</th>
+        <th>Nacin placanja</th>
+        <th>Iznos (RSD)</th>
+        <th>Porez (RSD)</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let r of svi_racuni let i = index">
+          <th>{{i+1}}</th>
+          <td>{{r.nacin_placanja}}</td>
+          <td>{{r.iznos}}</td>
+          <td>{{r.ukupan_porez}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
